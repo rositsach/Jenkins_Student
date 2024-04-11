@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Deploy to production') {
             steps {
-                bat 'Deployng'
+                echo 'Deployng'
             }
         }
 
